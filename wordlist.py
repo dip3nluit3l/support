@@ -11,4 +11,4 @@ if choice == 2:
 
 min = input("Enter The Minimum Value:")
 max = input("Enter The Maximum Value:")
-output= os.system('crunch "%s" "%s" -o genword.txt'% (min,max))  
+output= os.system('crunch "%s" "%s" -o passwords.txt'% (min,max))  
