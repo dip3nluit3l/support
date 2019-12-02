@@ -1,10 +1,35 @@
-# LinuxElectronsGift
-This is open source tool.
-1. Website Header Security Checker
-2. Open Port Scanner
-3. About
+Compatible
+  Windows
+  MacOS
+  Linux
 
-Select the best choice to check the security of your site.
+Python version:
+  Python3
 
-Installation:-
-Clone from git and run with python3
+Python Modules
+  requests
+  bs4
+  urllib
+  
+Installation Linux
+  sudo apt install git python3
+  git clone url
+  cd LinuxElectronsSecurityTester
+  python3 -m pip install -r requirements.txt
+  python3 menu.py
+  
+Installation Windows
+  Download LinuxElectronsSecurityTester
+  Download python 3
+  Install Python 3 with "Add to path" options.
+  Unzip LinuxElectronsSecurityTester (master.zip)
+    Open CMD and execute:
+        cd LinuxElectronsSecurityTester-master
+        python -m pip install -r requirements.txt
+        python Menu.py
+        
+Features
+  Security Header Tester of Websites
+  Open Port Scanner
+  wordlist Generator
+  Facebook Brutforce
