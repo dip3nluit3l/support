@@ -1,18 +1,6 @@
 import requests
 import threading
-# import urllib.request
-# import os
 from bs4 import BeautifulSoup
-import sys
-
-if sys.version_info[0] !=3: 
-	print('''--------------------------------------
-	REQUIRED PYTHON 3.x
-	use: python3 fb.py
---------------------------------------
-			''')
-	sys.exit()
-
 post_url='https://www.facebook.com/login.php'
 headers = {
 	'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
