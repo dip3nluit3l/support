@@ -18,7 +18,6 @@ def menu():
 	print ("1. Website Header Security Checker\n")
 	print ("2. Open Port Scanner\n")
 	print ("3. Facebook Password Generator\n")
-	print ("4. Brutforce Facebook\n")
 menu()
 main_input = int(input("Input Your Choice: "))
 if main_input == 1:
@@ -27,8 +26,6 @@ if main_input == 2:
 	import PortScanner
 if main_input == 3:
 	import wordlist
-if main_input == 4:
-	import fb
 else:
 	menu()
 
